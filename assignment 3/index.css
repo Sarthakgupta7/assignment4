@@ -1,0 +1,36 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/29/23/44/feedback-2800867_1280.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(144, 144, 230);
+}
+input{
+    border: 2px solid #6b58c7;
+    border-radius: 15px;
+}
+#button [type='submit']
+{
+ width: 100px;
+ height: 29px;
+ font-weight: bolder;
+ color: blue;  
+ background-color: rgb(247, 201, 140); 
+}
+span{
+    color: red;
+}
+/* for mobile */
+@media  (max-width:600px) 
+{
+  form{
+   font-size: medium;
+  }
+}
+/* for laptop */
+@media  (min-width:600px) and  (man-width:1080px)
+{
+  form{
+     font-size: 14px;
+    font-weight: bold;
+  }
+}
